@@ -1,8 +1,8 @@
 The examples in this repository are support to the **[Spark in Action, 2nd edition](http://jgp.net/sia)** book by Jean Georges Perrin and published by Manning. Find out more about the book on [Manning's website](http://jgp.net/sia).
 
-# Spark in Action, 2nd edition - chapter 13
+# Spark in Action, 2nd edition - chapter 15
 
-Welcome to Spark with Java, chapter 13. This chapter is about **aggregates**.
+Welcome to Spark with Java, chapter 15. This chapter is about **aggregates**.
 
 Datasets can be downloaded from:
 * Historical daily attendance by school from 2006 to now, from the [open data platform from the city of New York][1] at [https://data.cityofnewyork.us][1].
