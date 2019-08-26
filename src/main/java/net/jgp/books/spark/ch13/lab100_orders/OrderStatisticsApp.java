@@ -51,17 +51,17 @@ public class OrderStatisticsApp {
         .groupBy(col("firstName"), col("lastName"), col("state"))
         .agg(sum("quantity"), sum("revenue"), avg("revenue"));
     apiDf.show(20);
-    
+
     // Calculating the orders info using SparkSQL
     df.createOrReplaceTempView("orders");
-    String sqlStatement = "SELECT " + 
-        "    firstName, " + 
-        "    lastName, " + 
-        "    state, " + 
-        "    SUM(quantity), " + 
-        "    SUM(revenue), " + 
-        "    AVG(revenue) " + 
-        "  FROM orders " + 
+    String sqlStatement = "SELECT " +
+        "    firstName, " +
+        "    lastName, " +
+        "    state, " +
+        "    SUM(quantity), " +
+        "    SUM(revenue), " +
+        "    AVG(revenue) " +
+        "  FROM orders " +
         "  GROUP BY firstName, lastName, state";
     Dataset<Row> sqlDf = spark.sql(sqlStatement);
     sqlDf.show(20);
