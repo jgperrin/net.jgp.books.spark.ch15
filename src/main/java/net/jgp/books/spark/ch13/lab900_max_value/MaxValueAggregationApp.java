@@ -28,7 +28,7 @@ public class MaxValueAggregationApp {
         .master("local[*]")
         .getOrCreate();
 
-    // Reads a CSV file with header, called books.csv, stores it in a
+    // Reads a CSV file with header, called courses.csv, stores it in a
     // dataframe
     Dataset<Row> rawDf = spark.read().format("csv")
         .option("header", true)
