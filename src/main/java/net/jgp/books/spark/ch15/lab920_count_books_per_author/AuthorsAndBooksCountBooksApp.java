@@ -1,4 +1,4 @@
-package net.jgp.books.spark.ch13.lab920_count_books_per_author;
+package net.jgp.books.spark.ch15.lab920_count_books_per_author;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

@@ -1,4 +1,4 @@
-package net.jgp.books.spark.ch13.lab400_udaf;
+package net.jgp.books.spark.ch15.lab400_udaf;
 
 import java.util.ArrayList;
 import java.util.List;

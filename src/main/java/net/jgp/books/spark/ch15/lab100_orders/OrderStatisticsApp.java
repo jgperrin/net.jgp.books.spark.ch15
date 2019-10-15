@@ -1,4 +1,4 @@
-package net.jgp.books.spark.ch13.lab100_orders;
+package net.jgp.books.spark.ch15.lab100_orders;
 
 import static org.apache.spark.sql.functions.avg;
 import static org.apache.spark.sql.functions.col;

@@ -1,4 +1,4 @@
-package net.jgp.books.spark.ch13.lab900_max_value;
+package net.jgp.books.spark.ch15.lab900_max_value;
 
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.max;
