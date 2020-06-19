@@ -46,8 +46,8 @@ class NewYorkSchoolsToPostgreSqlScalaApp {
     // the JDBC driver is part of our build.sbt
     val prop = new Properties
     prop.setProperty("driver", "org.postgresql.Driver")
-    prop.setProperty("user", "jgp")
-    prop.setProperty("password", "Spark<3Java")
+    prop.setProperty("user", "postgres")
+    prop.setProperty("password", "password")
 
     // Write in a table called ch02
     df.write.mode(SaveMode.Overwrite).jdbc(dbConnectionUrl, "ch13_nyc_schools", prop)
