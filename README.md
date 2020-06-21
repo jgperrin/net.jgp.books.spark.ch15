@@ -6,6 +6,8 @@ The examples in this repository are support to the **[Spark in Action, 2nd editi
 
 Welcome to Spark with Java, chapter 15. This chapter is about **aggregates**.
 
+This code is designed to work with Apache Spark v2.4.4.
+
 Datasets can be downloaded from:
 * Historical daily attendance by school from 2006 to now, from the [open data platform from the city of New York][1] at [https://data.cityofnewyork.us][1].
   + [2018-2019](https://data.cityofnewyork.us/Education/2018-2019-Daily-Attendance/x3bb-kg5j)
@@ -14,9 +16,6 @@ Datasets can be downloaded from:
   + [2009-2012](https://data.cityofnewyork.us/Education/2009-2012-Historical-Daily-Attendance-By-School/wpqj-3buw)
   + [2006-2009](https://data.cityofnewyork.us/Education/2006-2009-Historical-Daily-Attendance-By-School/xwxx-rnki)
   
-
-All examples are in Java.
-
 ---
 
 Thank you for supporting [Spark in Action, 2e](http://jgp.net/sia), please share the <3!
