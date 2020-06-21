@@ -6,7 +6,7 @@ The examples in this repository are support to the **[Spark in Action, 2nd editi
 
 Welcome to Spark with Java, chapter 15. This chapter is about **aggregates**.
 
-This code is designed to work with Apache Spark v2.4.4.
+This code is designed to work with Apache Spark v3.0.0.
 
 Datasets can be downloaded from:
 * Historical daily attendance by school from 2006 to now, from the [open data platform from the city of New York][1] at [https://data.cityofnewyork.us][1].
