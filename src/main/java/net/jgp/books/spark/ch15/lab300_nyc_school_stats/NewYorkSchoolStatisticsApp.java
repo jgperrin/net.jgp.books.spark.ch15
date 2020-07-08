@@ -171,11 +171,11 @@ public class NewYorkSchoolStatisticsApp {
             DataTypes.IntegerType,
             false),
         DataTypes.createStructField(
-            "present",
+            "absent",
             DataTypes.IntegerType,
             false),
         DataTypes.createStructField(
-            "absent",
+            "present",
             DataTypes.IntegerType,
             false),
         DataTypes.createStructField(
