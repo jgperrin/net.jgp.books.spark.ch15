@@ -1,10 +1,10 @@
-The examples in this repository are support to the **[Spark in Action, 2nd edition](http://jgp.net/sia)** book by Jean Georges Perrin and published by Manning. Find out more about the book on [Manning's website](http://jgp.net/sia).
+The examples in this repository are support to the **[Spark in Action, 2nd edition](http://jgp.net/sia)** book by Jean-Georges Perrin and published by Manning. Find out more about the book on [Manning's website](http://jgp.net/sia).
 
 ---
 
 # Spark in Action, 2nd edition - chapter 15
 
-Welcome to Spark with Java, chapter 15. This chapter is about **aggregates**.
+Welcome to Spark in Action, 2e, chapter 15. This chapter is about **aggregates**.
 
 This code is designed to work with Apache Spark v3.0.1.
 
